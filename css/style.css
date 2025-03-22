@@ -96,7 +96,7 @@ span{
     border-image: linear-gradient(135deg, transparent 50%,var(--main-color) );
 }
 
-.home-img{
+.about-img{
     border-left: solid 0.6rem;
     border-bottom: solid 0.6rem;
     border-image: linear-gradient(225deg, transparent 50%,var(--main-color) );
@@ -110,22 +110,22 @@ span{
     background-color: var(--bg-color-02);
 }
 
-.home-content , .home-content{
+.home-content , .about-content{
     width: 45%;
 }
 
-.home-content h1, .home-content h1{
+.home-content h1, .about-content h1{
     font-weight: 700;
     line-height: 1.3;
      font-size: 2.7rem; /* teste */
 }
 
-.home-content h3, .home-content h3{
+.home-content h3, .about-content h3{
     font-weight: 700;
     font-size: 1.6rem; 
 }
 
-.home-content p, .home-content p{
+.home-content p, .about-content p{
     margin-top: 1.2rem;
     text-align: justify;
 }
@@ -210,7 +210,7 @@ span{
     transform: scale(1.1);
 }
 
-.portfolio-box .portfolio-layer{
+.portfolio-box .portfolio-layer {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -272,5 +272,9 @@ span{
     color: var(--main-color);
     cursor: pointer;
 }
+
+/* .btn:focus {
+    outline: 3px solid var(--main-color);
+} */
 
 
